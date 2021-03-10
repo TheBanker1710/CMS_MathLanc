@@ -12,6 +12,7 @@ using System.Diagnostics;
 using Serilog;
 using LoggingServices;
 using Microsoft.Extensions.DependencyInjection;
+using Serilog.Sinks.SystemConsole.Themes;
 
 namespace CMS_CORE_NG
 {
@@ -56,6 +57,7 @@ namespace CMS_CORE_NG
                        .Enrich.WithProperty("UserName", Environment.UserName)
                        .Enrich.WithProperty("ProcessId", Process.GetCurrentProcess().Id)
                        .Enrich.WithProperty("ProcessName", Process.GetCurrentProcess().ProcessName)
+                       .WriteTo.Console(theme: CustomConsoleTheme.VisualStudioMacLight)
                        .WriteTo.File(formatter: new CustomTextFormatter(), path: Path.Combine(hostingContext.HostingEnvironment.ContentRootPath + $"{Path.DirectorySeparatorChar}Logs{Path.DirectorySeparatorChar}", $"cms_core_ng_{DateTime.Now:yyyyMMdd}.txt"))
                       .ReadFrom.Configuration(hostingContext.Configuration));
                      webBuilder.UseStartup<Startup>();
