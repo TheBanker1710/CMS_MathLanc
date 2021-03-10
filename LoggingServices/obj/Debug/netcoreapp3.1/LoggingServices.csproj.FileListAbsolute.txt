@@ -1,0 +1,9 @@
+D:\tutos\CMS_CORE_NG\LoggingServices\bin\Debug\netcoreapp3.1\LoggingServices.deps.json
+D:\tutos\CMS_CORE_NG\LoggingServices\bin\Debug\netcoreapp3.1\LoggingServices.dll
+D:\tutos\CMS_CORE_NG\LoggingServices\bin\Debug\netcoreapp3.1\LoggingServices.pdb
+D:\tutos\CMS_CORE_NG\LoggingServices\obj\Debug\netcoreapp3.1\LoggingServices.csprojAssemblyReference.cache
+D:\tutos\CMS_CORE_NG\LoggingServices\obj\Debug\netcoreapp3.1\LoggingServices.AssemblyInfoInputs.cache
+D:\tutos\CMS_CORE_NG\LoggingServices\obj\Debug\netcoreapp3.1\LoggingServices.AssemblyInfo.cs
+D:\tutos\CMS_CORE_NG\LoggingServices\obj\Debug\netcoreapp3.1\LoggingServices.csproj.CoreCompileInputs.cache
+D:\tutos\CMS_CORE_NG\LoggingServices\obj\Debug\netcoreapp3.1\LoggingServices.dll
+D:\tutos\CMS_CORE_NG\LoggingServices\obj\Debug\netcoreapp3.1\LoggingServices.pdb
