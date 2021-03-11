@@ -1,0 +1,9 @@
+D:\tutos\CMS_CORE_NG\ModelService\bin\Debug\netcoreapp3.1\ModelService.deps.json
+D:\tutos\CMS_CORE_NG\ModelService\bin\Debug\netcoreapp3.1\ModelService.dll
+D:\tutos\CMS_CORE_NG\ModelService\bin\Debug\netcoreapp3.1\ModelService.pdb
+D:\tutos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.csprojAssemblyReference.cache
+D:\tutos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.AssemblyInfoInputs.cache
+D:\tutos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.AssemblyInfo.cs
+D:\tutos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.csproj.CoreCompileInputs.cache
+D:\tutos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.dll
+D:\tutos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.pdb

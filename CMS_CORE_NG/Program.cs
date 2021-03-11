@@ -13,6 +13,8 @@ using Serilog;
 using LoggingServices;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog.Sinks.SystemConsole.Themes;
+using DataService;
+using FunctionalService;
 
 namespace CMS_CORE_NG
 {
@@ -28,11 +30,13 @@ namespace CMS_CORE_NG
 
                 try
                 {
-                    int zero = 0;
-                    int result = 100 / zero;
-                    
+                    var context = services.GetRequiredService<ApplicationDbContext>();
+                    var dpContext = services.GetRequiredService<DataProtectionKeysContext>();
+                    var functionSvc = services.GetRequiredService<IFunctionalSvc>();                   
+
+                    DbContextInitializer.Initialize(dpContext, context, functionSvc).Wait();
                 }
-                catch (DivideByZeroException ex)
+                catch (Exception ex)
                 {
                     Log.Error("An error occurred while seeding the database  {Error} {StackTrace} {InnerException} {Source}",
                      ex.Message, ex.StackTrace, ex.InnerException, ex.Source);
