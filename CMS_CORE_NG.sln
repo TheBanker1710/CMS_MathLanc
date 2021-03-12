@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS_CORE_NG", "CMS_CORE_NG\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingServices", "LoggingServices\LoggingServices.csproj", "{7FFEF532-392E-4E7B-AB54-B89EB5F7F71C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "DataService\DataService.csproj", "{BB39981F-9A8F-49FD-ADF0-70B73F3ECA79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataService", "DataService\DataService.csproj", "{BB39981F-9A8F-49FD-ADF0-70B73F3ECA79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelService", "ModelService\ModelService.csproj", "{65B8639F-243F-4D46-B24C-CD6FE48363D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelService", "ModelService\ModelService.csproj", "{65B8639F-243F-4D46-B24C-CD6FE48363D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalService", "FunctionalService\FunctionalService.csproj", "{96FCFC66-887D-44CA-B3F6-35A181D48D0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalService", "FunctionalService\FunctionalService.csproj", "{96FCFC66-887D-44CA-B3F6-35A181D48D0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
